@@ -1,1 +1,19 @@
 /* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+*{
+	-fx-font-size: 12px;
+	-fx-font-weight: bold;
+}
+.radio-button-correct{
+	-fx-text-fill : green;
+}
+.radio-button-incorrect{
+	-fx-text-fill : red;
+}
+.label{
+	-fx-max-width:740px;
+	-fx-wrap-text:true;
+}
+.radio-button{
+	-fx-max-width:240px;
+	-fx-wrap-text:true;
+}

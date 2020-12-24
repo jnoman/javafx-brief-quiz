@@ -8,6 +8,6 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.fx.ide.jdt.core.JAVAFX_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/javaFx"/>
-	<classpathentry kind="lib" path="C:/Users/jamal eddine noman/Downloads/JLayer1.0.1/jl1.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jamal eddine noman/Downloads/jaco-mp3-player-0.9.3.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
