@@ -26,7 +26,7 @@ import javafx.scene.image.ImageView;
 import javafx.scene.Group;
 
 
-public class Main extends Application {
+public class Main extends Application implements InterListe {
 	
 	static Players player1;
 	String chemin;
@@ -35,8 +35,6 @@ public class Main extends Application {
 	static Label lapelTime;
 	static Button btn_valider;
 	static Label lapel_score;
-	static ArrayList<Quiz> listeQuiz;
-	static ArrayList<Player_QUIZ> listePlayer_QUIZ;
 	static ArrayList<ToggleGroup> listeRadioButtonGroup;
 	static Stage pStage;
 	static Timeline timeline;
@@ -47,8 +45,6 @@ public class Main extends Application {
 	@Override
 	public void start(Stage primaryStage) {
 		try {
-			listeQuiz = new ArrayList<Quiz>();
-			listePlayer_QUIZ = new ArrayList<Player_QUIZ>();
 			listeRadioButtonGroup = new ArrayList<ToggleGroup>();
 			panel = new Group();
 			Scene scene = new Scene(panel,800, 600);
@@ -255,7 +251,7 @@ public class Main extends Application {
 		
 
 		btn_valider = new Button("valider");
-		btn_valider.relocate(650, 500);
+		btn_valider.relocate(700, 550);
 		panel.getChildren().add(btn_valider);
 		btn_valider.setOnAction(new EventHandler<ActionEvent>() {
 			@Override
@@ -287,7 +283,7 @@ public class Main extends Application {
 		
 
 		btn_valider = new Button("valider");
-		btn_valider.relocate(650, 500);
+		btn_valider.relocate(700, 550);
 		panel.getChildren().add(btn_valider);
 		btn_valider.setOnAction(new EventHandler<ActionEvent>() {
 			@Override
